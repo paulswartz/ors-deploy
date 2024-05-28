@@ -6,6 +6,9 @@ ors:
   engine:
     source_file: /home/ors/files/data.osm.pbf
     profiles:
+      car:
+       enabled: true
+
       hgv:
        enabled: true
        profile: driving-hgv
